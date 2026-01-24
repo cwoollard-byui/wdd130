@@ -33,6 +33,8 @@ main img {
     width: 140px;
     height: auto;
     border: 2px double blue;
+    padding: 1px;
+    box-shadow: 0 0 40px black;
 }
 
 aside {
