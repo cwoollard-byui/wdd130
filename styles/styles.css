@@ -1,3 +1,7 @@
+:root {
+    --line-color: blue;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -32,7 +36,7 @@ main {
 main img {
     width: 140px;
     height: auto;
-    border: 2px double blue;
+    border: 2px double var(--line-color);
     padding: 1px;
     box-shadow: 0 0 40px black;
 }
@@ -54,6 +58,6 @@ aside img {
 
 footer {
     margin-top: 10px;
-    border-top: 2px double #00e;
+    border-top: 2px double var(--line-color);
     text-align: center;
 }
