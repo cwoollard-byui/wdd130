@@ -112,7 +112,7 @@ h1 {
     text-align: center;
     opacity: 0.95;
     background-color: var(--accent1-color);
-    color: white;
+    color: #fff;
 }
 
 h2 {
@@ -121,7 +121,7 @@ h2 {
     padding: 16px;
     text-align: center;
     background-color: var(--accent2-color);
-    color: white;
+    color: #fff;
 }
 
 article {
@@ -131,7 +131,7 @@ article {
     width: 600px;
     background-color: var(--accent1-color);
     opacity: 0.95;
-    color: white;
+    color: #fff;
     border-radius: 8px;
     font-size: 18px;
 }
