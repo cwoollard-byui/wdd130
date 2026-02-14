@@ -195,3 +195,145 @@ footer {
     display: flex;
     align-items: center;
 }
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h1 {
+    position: static;
+    opacity: 1;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.contact-info p {
+    margin: 4px 0;
+    padding: 0;
+}
+
+.contact-info a {
+    color: var(--accent2-color);
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    align-items: start;
+    margin: 16px 0;
+    padding: 0;
+}
+
+.contact-content iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    border: none;
+}
+
+.contact-content form {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-content .form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.contact-content .form-item label {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.contact-content .form-label {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.contact-content input[type="text"],
+.contact-content input[type="email"],
+.contact-content textarea {
+    padding: 8px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+.contact-content .radio-group {
+    align-items: start;
+}
+
+.contact-content .radio-group label {
+    font-weight: normal;
+    text-align: left;
+    padding-left: 4px;
+}
+
+.contact-content .checkbox {
+    grid-template-columns: auto 1fr;
+    margin-left: 33%;
+}
+
+.contact-content .checkbox label {
+    font-weight: normal;
+    text-align: left;
+}
+
+.contact-content input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.contact-content button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-family: var(--body-font);
+    cursor: pointer;
+}
+
+.contact-content button:hover {
+    background-color: var(--accent2-color);
+    border-color: var(--accent2-color);
+}
+
+.employees {
+    background-color: var(--accent1-color);
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 16px 0;
+    color: #fff;
+}
+
+.employee-gallery figure {
+    text-align: center;
+    margin: 0;
+}
+
+.employee-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.employee-gallery figcaption {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #fff;
+}
