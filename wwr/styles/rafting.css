@@ -301,11 +301,6 @@ footer {
     cursor: pointer;
 }
 
-.contact-content button:hover {
-    background-color: var(--accent2-color);
-    border-color: var(--accent2-color);
-}
-
 .employees {
     background-color: var(--accent1-color);
     padding: 16px;
