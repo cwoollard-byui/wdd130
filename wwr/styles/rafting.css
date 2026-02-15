@@ -303,6 +303,7 @@ footer {
 
 .employees {
     background-color: var(--accent1-color);
+    color: #fff;
     padding: 16px;
     margin: 16px 0;
 }
