@@ -203,7 +203,7 @@ footer {
 .contact-info h1 {
     position: static;
     opacity: 1;
-    background-color: transparent;
+    background-color: #0000;
     color: var(--primary-color);
 }
 
